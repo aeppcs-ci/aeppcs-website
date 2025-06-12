@@ -1,1 +1,241 @@
-# aeppcs-website
+<!DOCTYPE html>
+<html lang="fr">
+<head>  
+  <meta charset="UTF-8">  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+  <title>AEPPCS – Association des Étudiants Promoteurs de la Paix</title>  
+  <style>  
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #FFFFFF;
+      color: #333333;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #3DA9DC;
+      color: white;
+      padding: 2rem 1rem;
+      text-align: center;
+    }
+
+    header img {
+      max-width: 100px;
+    }
+
+    nav {
+      background-color: #F28B2C;
+      padding: 1rem;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 1rem;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      display: block;
+      padding: 0.5rem;
+    }
+
+    section {
+      padding: 2rem;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    section h2 {
+      color: #3DA9DC;
+    }
+
+    footer {
+      background-color: #3DA9DC;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+    }
+
+    ul {
+      line-height: 1.8;
+    }
+
+    .btn {
+      display: inline-block;
+      margin-top: 1rem;
+      padding: 0.5rem 1rem;
+      background-color: #F28B2C;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+
+    .action {
+      margin-bottom: 2rem;
+    }
+
+    .action img,
+    img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 8px;
+      margin-top: 1rem;
+    }
+  </style>  
+</head>
+<body>  
+  <header>  
+    <img src="images/logo-aeppcs.png" alt="Logo AEPPCS">  
+    <h1>Bienvenue sur le site officiel de l’AEPPCS</h1>  
+    <p>Association des Étudiants Promoteurs de la Paix et de la Cohésion Sociale</p>  
+  </header>
+
+  <nav>  
+    <a href="#accueil">Accueil</a>  
+    <a href="#qui-sommes-nous">Qui sommes-nous</a>  
+    <a href="#missions">Missions</a>  
+    <a href="#valeurs">Valeurs</a>  
+    <a href="#fonctionnement">Fonctionnement</a>  
+    <a href="#actions">Actions concrètes</a>  
+    <a href="#actualites">Actualités</a>  
+    <a href="#adhesion">Adhésion</a>  
+    <a href="#contribution">Contribution</a>  
+    <a href="#contact">Contact</a>  
+  </nav>
+
+  <section id="accueil">
+    <h2>Accueil</h2>
+    <p>L’AEPPCS est une association étudiante engagée dans la promotion de la paix, de la solidarité et de la cohésion sociale au sein des communautés universitaires et au-delà.</p>
+    <p>Nous vous souhaitons la bienvenue sur notre plateforme officielle.</p>
+  </section>
+
+  <section id="qui-sommes-nous">
+    <h2>Qui sommes-nous ?</h2>
+    <p>L’AEPPCS est un regroupement d’étudiants déterminés à promouvoir la paix, la solidarité et la cohésion sociale dans l’environnement universitaire et au-delà.</p>
+    <p>Nos actions sont guidées par des valeurs fondamentales : le respect, l’écoute, la médiation, l’unité, et l’inclusion.</p>
+    <p><strong>👤 Président fondateur :</strong> <img src="images/photo-president.jpg" alt="Président" style="width:50px; vertical-align:middle;"> Monsieur Kouamé Evrard<br>
+    Élu le 30 avril 2024<br>
+    Étudiant en Philosophie et Bioéthique (Parcours Politique, Sécurité et Géostratégie)<br>
+    Université de Bondoukou<br>
+    📞 Contact : 01 42 31 36 50</p>
+  </section>
+
+  <section id="missions">
+    <h2>Nos missions</h2>
+    <ul>
+      <li>Promouvoir la paix et le vivre ensemble entre étudiants et autres communautés</li>
+      <li>Favoriser les échanges interculturels et académiques</li>
+      <li>Offrir un accompagnement pour l’éducation à la paix</li>
+      <li>Contribuer à la formation civique</li>
+      <li>Développer des partenariats pour la paix</li>
+      <li>Affirmer l’association comme acteur national de cohésion</li>
+    </ul>
+  </section>
+
+  <section id="valeurs">
+    <h2>Nos valeurs</h2>
+    <ul>
+      <li><strong>Le respect et la dignité :</strong> Toute personne a droit à un respect fondamental et à la dignité.</li>
+      <li><strong>La solidarité :</strong> Engagement moral et désintéressé au service de la paix.</li>
+      <li><strong>La transparence :</strong> Gouvernance claire et honnête, inspirant confiance.</li>
+      <li><strong>La paix :</strong> Changement durable des comportements vers plus de compréhension, de dialogue et de justice.</li>
+      <li><strong>Le vivre ensemble :</strong> Apprendre à dépasser les différences et construire une communauté solidaire et tolérante.</li>
+    </ul>
+  </section>
+
+  <section id="fonctionnement">
+    <h2>Nos principes de fonctionnement</h2>
+    <p>Tous les membres de l’association ont le devoir de :</p>
+    <ul>
+      <li>Respecter les statuts et règlement intérieur</li>
+      <li>S’acquitter des cotisations</li>
+      <li>Participer aux activités</li>
+      <li>Respecter les décisions du bureau exécutif</li>
+      <li>Ne pas commettre d’acte délictueux</li>
+    </ul>
+    <p>L’inobservation de ces devoirs peut entraîner : Avertissement, Blâme ou Radiation.</p>
+  </section>
+
+  <section id="actions">
+    <h2>Nos actions concrètes (2024–2025)</h2>
+
+    <div class="action">    
+      <h3>1ère Conférence – 15 Novembre 2024</h3>    
+      <p>Organisée à l’Université de Bondoukou avec deux agents du ministère de la Cohésion nationale comme conférenciers.</p>    
+      <img src="images/action1.jpg" alt="Conférence Université de Bondoukou">    
+    </div>
+
+    <div class="action">  
+      <h3>2e Conférence – 28 Février 2025</h3>  
+      <p>À CEFAT-INTER, en présence du directeur du musée de Bondoukou. Nomination d'une coordinatrice AEPPCS sur place.</p>  
+      <img src="images/action2.jpg" alt="Conférence CEFAT-INTER">  
+    </div>
+
+    <div class="action">  
+      <h3>3e Conférence – 12 Avril 2025</h3>  
+      <p>À Kouassi N’dawa, organisée à l’invitation de l’ETIC-Bondoukou.</p>  
+      <img src="images/action3.jpg" alt="Conférence Kouassi N’dawa">  
+    </div>
+
+    <div class="action">  
+      <h3>Médiation et gestion des conflits</h3>  
+      <p>Interventions dans les chambres étudiantes. Deux responsables chargés de la médiation actifs sur le terrain.</p>  
+      <img src="images/action4.jpg" alt="Médiation sur le campus">  
+    </div>
+
+    <div class="action">  
+      <h3>Accompagnement social</h3>  
+      <p>Visites, tickets repas et aides attribuées aux membres en détresse via la cellule sociale de l’AEPPCS.</p>  
+      <img src="images/action5.jpg" alt="Accompagnement social">  
+    </div>
+
+    <div class="action">  
+      <h3>Communication et sensibilisation publique</h3>  
+      <p>Passage à la radio pour parler de paix, de tolérance et de citoyenneté responsable.</p>  
+      <img src="images/action6.jpg" alt="Radio sensibilisation">  
+    </div>
+  </section>
+
+  <section id="actualites">
+    <h2>Actualités à venir</h2>
+    <p>15 Novembre 2025 : Journée nationale de la paix – Conférence à l’Université de Bondoukou.</p>
+  </section>
+
+  <section id="adhesion">
+    <h2>Conditions d’adhésion</h2>
+    <ul>
+      <li>Être étudiant modèle et consciencieux</li>
+      <li>Esprit de bénévolat et de paix</li>
+      <li>Soumettre une demande écrite validée par le bureau</li>
+    </ul>
+    <p>Frais d’adhésion : 2 000 FCFA après acceptation. Cotisation mensuelle : 500 FCFA.</p>
+    <h3>Devenir membre</h3>
+    <a class="btn" href="https://forms.gle/votre-lien-google-form" target="_blank">Formulaire d’inscription</a>
+  </section>
+
+  <section id="contribution">
+    <h2>Contribution & Soutien</h2>
+    <p>Pour soutenir nos actions ou régler vos cotisations :</p>
+    <ul>
+      <li>Montant mensuel : 500 FCFA pour les membres actifs</li>
+      <li>Dons & Soutiens externes : via compte Wave de Fatou (trésorière) : <strong>0153121825</strong></li>
+    </ul>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p><strong>Président fondateur :</strong> Kouamé Evrard</p>
+    <p><strong>Téléphone :</strong> 01 42 31 36 50</p>
+    <p><strong>Siège :</strong> Université de Bondoukou</p>
+    <p><strong>Facebook :</strong> <a href="https://www.facebook.com/profile.php?id=61571152195740" target="_blank">Aeppcs. Officiel</a></p>
+    <p><strong>Chaîne WhatsApp :</strong> <a href="https://whatsapp.com/channel/0029VawNHPJ6WaKpJc2vDP0M" target="_blank">AEPPCS. Infos</a></p>
+  </section>
+
+  <footer>
+    <p>© 2025 AEPPCS – Tous droits réservés</p>
+  </footer>
+</body>
+</html>
