@@ -184,7 +184,7 @@
     </ul>  
   </section>  <section id="contact">  
     <h2>Contact</h2>  
-    <p><strong>Président fondateur :</strong> Kouamé Evrard</p>  
+    <p><strong>Président :</strong> Kouamé Evrard</p>  
     <p><strong>Téléphone :</strong> 01 42 31 36 50</p>  
     <p><strong>Siège :</strong> Université de Bondoukou</p>  
     <p><strong>Facebook :</strong> <a href="https://www.facebook.com/profile.php?id=61571152195740" target="_blank">Aeppcs. Officiel</a></p>  
