@@ -165,16 +165,65 @@
   </section>  <section id="actualites">  
     <h2>Actualités à venir</h2>  
     <p>15 Novembre 2025 : Journée nationale de la paix – Conférence à l’Université de Bondoukou.</p>  
-  </section>  <section id="adhesion">  
-    <h2>Conditions d’adhésion</h2>  
-    <ul>  
-      <li>Être étudiant modèle et consciencieux</li>  
-      <li>Esprit de bénévolat et de paix</li>  
-      <li>Soumettre une demande écrite validée par le bureau</li>  
-    </ul>  
-    <p>Frais d’adhésion : 2 000 FCFA après acceptation. Cotisation mensuelle : 500 FCFA.</p>  
-    <h3>Devenir membre</h3>  
-    <a class="btn" href="https://forms.gle/votre-lien-google-form" target="_blank">Formulaire d’inscription</a>  
+  </section>  <section id="adhesion">
+  <h2>Conditions d’adhésion</h2>
+  <ul>
+    <li>Être étudiant modèle et consciencieux</li>
+    <li>Esprit de bénévolat et de paix</li>
+    <li>Soumettre une demande écrite validée par le bureau</li>
+  </ul>
+  <p>Frais d’adhésion : 2 000 FCFA après acceptation. Cotisation mensuelle : 500 FCFA.</p>
+
+  <h3>Formulaire d’adhésion</h3>
+
+  <!-- Message de confirmation -->
+  <div id="message-succes" style="display:none; background:#d4edda; color:#155724; padding:1rem; border:1px solid #c3e6cb; border-radius:5px; margin-bottom:1rem;">
+    🎉 Merci ! Votre demande a bien été envoyée. Nous vous contacterons très bientôt.
+  </div>
+
+  <form id="form-adhesion" action="https://formspree.io/f/xwkgnzly" method="POST" style="max-width:600px; margin-top:1rem;">
+    <label>Nom complet :<br>
+      <input type="text" name="nom" required style="width:100%; padding:8px; margin-top:5px;">
+    </label><br><br>
+
+    <label>Numéro de téléphone :<br>
+      <input type="tel" name="telephone" required style="width:100%; padding:8px; margin-top:5px;">
+    </label><br><br>
+
+    <label>Université / Établissement :<br>
+      <input type="text" name="universite" required style="width:100%; padding:8px; margin-top:5px;">
+    </label><br><br>
+
+    <label>Motivation (optionnel) :<br>
+      <textarea name="motivation" rows="4" style="width:100%; padding:8px; margin-top:5px;"></textarea>
+    </label><br><br>
+
+    <button type="submit" class="btn">Envoyer la demande</button>
+  </form>
+
+  <script>
+    const form = document.getElementById("form-adhesion");
+    const message = document.getElementById("message-succes");
+
+    form.addEventListener("submit", async function (e) {
+      e.preventDefault();
+      const formData = new FormData(form);
+      const response = await fetch(form.action, {
+        method: form.method,
+        body: formData,
+        headers: {
+          'Accept': 'application/json'
+        }
+      });
+      if (response.ok) {
+        form.reset();
+        message.style.display = "block";
+      } else {
+        alert("Erreur lors de l'envoi. Merci de réessayer.");
+      }
+    });
+  </script>
+</section> 
   </section>  <section id="contribution">  
     <h2>Contribution & Soutien</h2>  
     <p>Pour soutenir nos actions ou régler vos cotisations :</p>  
