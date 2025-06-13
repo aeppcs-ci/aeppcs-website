@@ -165,8 +165,15 @@
   </section>  <section id="actualites">  
     <h2>Actualités à venir</h2>  
     <p>15 Novembre 2025 : Journée nationale de la paix – Conférence à l’Université de Bondoukou.</p>  
-  </section>  <section id="adhesion">
-  <h2>Formulaire d’adhésion</h2>
+  </section>  .<section id="adhesion">
+  <h2>Conditions d’adhésion</h2>
+  <ul>
+    <li>Être étudiant modèle et consciencieux</li>
+    <li>Esprit de bénévolat et de paix</li>
+    <li>Soumettre une demande écrite validée par le bureau</li>
+  </ul>
+  <p>Frais d’adhésion : 2 000 FCFA après acceptation. Cotisation mensuelle : 500 FCFA.</p>
+  <h3>Formulaire d’adhésion</h3>
 
   <!-- Message de confirmation -->
   <div id="message-succes" style="display: none; background: #d4edda; color: #155724; padding: 1rem; border: 1px solid #c3e6cb; border-radius: 5px; margin-bottom: 1rem;">
