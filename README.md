@@ -166,41 +166,121 @@
     <h2>Actualités à venir</h2>  
     <p>15 Novembre 2025 : Journée nationale de la paix – Conférence à l’Université de Bondoukou.</p>  
   </section>  <section id="adhesion">
-  <h2>Conditions d’adhésion</h2>
-  <ul>
-    <li>Être étudiant modèle et consciencieux</li>
-    <li>Esprit de bénévolat et de paix</li>
-    <li>Soumettre une demande écrite validée par le bureau</li>
-  </ul>
-  <p>Frais d’adhésion : 2 000 FCFA après acceptation. Cotisation mensuelle : 500 FCFA.</p>
-
-  <h3>Formulaire d’adhésion</h3>
+  <h2>Formulaire d’adhésion</h2>
 
   <!-- Message de confirmation -->
-  <div id="message-succes" style="display:none; background:#d4edda; color:#155724; padding:1rem; border:1px solid #c3e6cb; border-radius:5px; margin-bottom:1rem;">
+  <div id="message-succes" style="display: none; background: #d4edda; color: #155724; padding: 1rem; border: 1px solid #c3e6cb; border-radius: 5px; margin-bottom: 1rem;">
     🎉 Merci ! Votre demande a bien été envoyée. Nous vous contacterons très bientôt.
   </div>
 
-  <form id="form-adhesion" action="https://formspree.io/f/xwkgnzly" method="POST" style="max-width:600px; margin-top:1rem;">
-    <label>Nom complet :<br>
-      <input type="text" name="nom" required style="width:100%; padding:8px; margin-top:5px;">
-    </label><br><br>
+  <form id="form-adhesion" action="https://formspree.io/f/ton-lien-formspree-ici" method="POST">
+    <!-- Informations personnelles -->
+    <h3>1. Informations personnelles</h3>
+    <div class="form-group">
+      <label for="prenoms">Prénoms</label>
+      <input type="text" id="prenoms" name="prenoms" required>
+    </div>
+    <div class="form-group">
+      <label for="nom">Nom</label>
+      <input type="text" id="nom" name="nom" required>
+    </div>
+    <div class="form-group">
+      <label>Sexe</label>
+      <div class="radio-group">
+        <label><input type="radio" name="sexe" value="Masculin" required> Masculin</label>
+        <label><input type="radio" name="sexe" value="Féminin" required> Féminin</label>
+      </div>
+    </div>
+    <div class="form-group">
+      <label for="datelieu">Date et lieu de naissance</label>
+      <input type="text" id="datelieu" name="datelieu" required>
+    </div>
+    <div class="form-group">
+      <label for="nationalite">Nationalité</label>
+      <input type="text" id="nationalite" name="nationalite" required>
+    </div>
 
-    <label>Numéro de téléphone :<br>
-      <input type="tel" name="telephone" required style="width:100%; padding:8px; margin-top:5px;">
-    </label><br><br>
+    <!-- Informations académiques -->
+    <h3>2. Informations académiques</h3>
+    <div class="form-group">
+      <label for="universite">Université fréquentée</label>
+      <input type="text" id="universite" name="universite" required>
+    </div>
+    <div class="form-group">
+      <label for="filiere">Filière complète</label>
+      <input type="text" id="filiere" name="filiere">
+    </div>
+    <div class="form-group">
+      <label for="abreviation">Abréviation de la filière</label>
+      <input type="text" id="abreviation" name="abreviation">
+    </div>
+    <div class="form-group">
+      <label>Niveau d’étude actuel</label>
+      <div class="radio-group">
+        <label><input type="radio" name="niveau" value="L1"> L1</label>
+        <label><input type="radio" name="niveau" value="L2"> L2</label>
+        <label><input type="radio" name="niveau" value="L3"> L3</label>
+        <label><input type="radio" name="niveau" value="M1"> M1</label>
+        <label><input type="radio" name="niveau" value="M2"> M2</label>
+        <label><input type="radio" name="niveau" value="Doctorat"> Doctorat</label>
+      </div>
+    </div>
+    <div class="form-group">
+      <label for="moyenne">Moyenne générale (sur 20)</label>
+      <input type="number" id="moyenne" name="moyenne" min="0" max="20" step="0.01">
+    </div>
+    <div class="form-group">
+      <label>Statut académique actuel</label>
+      <div class="radio-group">
+        <label><input type="radio" name="statut" value="Redoublant"> Je suis redoublant(e)</label>
+        <label><input type="radio" name="statut" value="Nouveau"> Je suis un(e) nouvel(le) inscrit(e)</label>
+      </div>
+    </div>
 
-    <label>Université / Établissement :<br>
-      <input type="text" name="universite" required style="width:100%; padding:8px; margin-top:5px;">
-    </label><br><br>
+    <!-- Coordonnées -->
+    <h3>3. Coordonnées</h3>
+    <div class="form-group">
+      <label for="telephone">Numéro WhatsApp / Téléphone</label>
+      <input type="text" id="telephone" name="telephone" required>
+    </div>
+    <div class="form-group">
+      <label for="email">Adresse e-mail</label>
+      <input type="email" id="email" name="email" required>
+    </div>
+    <div class="form-group">
+      <label for="adresse">Adresse actuelle (ville, quartier)</label>
+      <input type="text" id="adresse" name="adresse">
+    </div>
 
-    <label>Motivation (optionnel) :<br>
-      <textarea name="motivation" rows="4" style="width:100%; padding:8px; margin-top:5px;"></textarea>
-    </label><br><br>
+    <!-- Engagement -->
+    <h3>4. Engagement personnel</h3>
+    <div class="form-group">
+      <label for="motivation">Exprimez en quelques phrases votre motivation, vos objectifs ou vos attentes</label>
+      <textarea id="motivation" name="motivation" rows="4"></textarea>
+    </div>
 
-    <button type="submit" class="btn">Envoyer la demande</button>
+    <!-- Déclaration -->
+    <h3>5. Déclaration d’engagement</h3>
+    <div class="form-group">
+      <p>Avez-vous lu et compris les principes de fonctionnement ainsi que les conditions d’adhésion de l’AEPPCS ?</p>
+      <label><input type="radio" name="engagement" value="Oui"> Oui, je m'engage</label><br>
+      <label><input type="radio" name="engagement" value="Non"> Non, je ne m'engage pas</label>
+    </div>
+    <div class="form-group">
+      <label for="ville">Fait à (ville)</label>
+      <input type="text" id="ville" name="ville">
+    </div>
+    <div class="form-group">
+      <label for="date">Le (date)</label>
+      <input type="text" id="date" name="date">
+    </div>
+
+    <div class="form-group">
+      <button type="submit">Envoyer ma demande</button>
+    </div>
   </form>
 
+  <!-- Script pour soumission Ajax -->
   <script>
     const form = document.getElementById("form-adhesion");
     const message = document.getElementById("message-succes");
@@ -218,13 +298,13 @@
       if (response.ok) {
         form.reset();
         message.style.display = "block";
+        window.scrollTo(0, 0);
       } else {
         alert("Erreur lors de l'envoi. Merci de réessayer.");
       }
     });
   </script>
-</section> 
-  </section>  <section id="contribution">  
+</section>  <section id="contribution">  
     <h2>Contribution & Soutien</h2>  
     <p>Pour soutenir nos actions ou régler vos cotisations :</p>  
     <ul>  
