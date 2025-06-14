@@ -269,7 +269,7 @@
     <!-- Déclaration -->
     <h3>5. Déclaration d’engagement</h3>
     <div class="form-group">
-      <p>Avez-vous lu et compris les principes de fonctionnement ainsi que les conditions d’adhésion de l’AEPPCS ?<br>
+     <p>Avez-vous lu et compris les principes de fonctionnement ainsi que les conditions d’adhésion de l’AEPPCS ?<br>
       Vous engagez-vous à les respecter scrupuleusement et sans exception ?</p>
       <label><input type="radio" name="engagement" value="Oui"> Oui, je m'engage</label><br>
       <label><input type="radio" name="engagement" value="Non"> Non, je ne m'engage pas</label>
