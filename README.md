@@ -45,6 +45,7 @@
   <section id="accueil">
     <h2>Accueil</h2>
     <p>Parce que la différence nous élève, faisons de notre diversité une force commune.
+      
     <p>👉 AEPPCS, notre diversité est notre richesse.</p>
     <p>Nous vous souhaitons la bienvenue sur notre plateforme officielle.</p>
   </section>
