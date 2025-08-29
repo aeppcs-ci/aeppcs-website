@@ -47,7 +47,6 @@
     <p>Parce que la différence nous élève, faisons de notre diversité une force commune.
       👉 AEPPCS, notre diversité est notre richesse.
     <p>Nous vous souhaitons la bienvenue sur notre plateforme officielle.</p>
-  </section>
 
   <section id="qui-sommes-nous">
     <h2>Qui sommes-nous ?</h2>
